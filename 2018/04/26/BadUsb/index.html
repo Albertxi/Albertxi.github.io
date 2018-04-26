@@ -79,17 +79,25 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="BadUSB搭建世界上最邪恶的USB外设，BadUSB最早是在2014年的黑帽大会上研究人员JakobLell和Karsten Nohl提出并展示的。不同于老式的U盘病毒，它利用了USB协议中的一个漏洞，通过模拟键盘、鼠标、网卡等从而让目标电脑执行恶意代码，达到控住主机或者窃取敏感信息等目的。 BadUSB攻击原理BadUSB的威胁在于：恶意代码存在于U盘的固件中，PC上的杀毒软件无法访问到U盘存">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2018/04/26/hello-world/index.html">
+<meta property="og:title" content="BadUSB搭建">
+<meta property="og:url" content="http://yoursite.com/2018/04/26/BadUsb/index.html">
 <meta property="og:site_name" content="Albertxi的博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="BadUSB搭建世界上最邪恶的USB外设，BadUSB最早是在2014年的黑帽大会上研究人员JakobLell和Karsten Nohl提出并展示的。不同于老式的U盘病毒，它利用了USB协议中的一个漏洞，通过模拟键盘、鼠标、网卡等从而让目标电脑执行恶意代码，达到控住主机或者窃取敏感信息等目的。 BadUSB攻击原理BadUSB的威胁在于：恶意代码存在于U盘的固件中，PC上的杀毒软件无法访问到U盘存">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-26T12:46:46.825Z">
+<meta property="og:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426210340.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426210350.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426210324.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426212026.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426212332.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426212821.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426213101.png">
+<meta property="og:updated_time" content="2018-04-26T13:49:45.041Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="BadUSB搭建">
+<meta name="twitter:description" content="BadUSB搭建世界上最邪恶的USB外设，BadUSB最早是在2014年的黑帽大会上研究人员JakobLell和Karsten Nohl提出并展示的。不同于老式的U盘病毒，它利用了USB协议中的一个漏洞，通过模拟键盘、鼠标、网卡等从而让目标电脑执行恶意代码，达到控住主机或者窃取敏感信息等目的。 BadUSB攻击原理BadUSB的威胁在于：恶意代码存在于U盘的固件中，PC上的杀毒软件无法访问到U盘存">
+<meta name="twitter:image" content="http://yoursite.com/2018/04/26/BadUsb/微信截图_20180426210340.png">
 
 
 
@@ -119,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/26/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/26/BadUsb/"/>
 
 
 
 
 
-  <title>Hello World | Albertxi的博客</title>
+  <title>BadUSB搭建 | Albertxi的博客</title>
   
 
 
@@ -292,7 +300,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/26/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/26/BadUsb/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Albertxi">
@@ -309,7 +317,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">BadUSB搭建</h1>
         
 
         <div class="post-meta">
@@ -321,7 +329,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-26T15:16:00+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-26T21:48:07+08:00">
                 2018-04-26
               </time>
             
@@ -359,16 +367,38 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        <h2 id="BadUSB搭建"><a href="#BadUSB搭建" class="headerlink" title="BadUSB搭建"></a>BadUSB搭建</h2><p>世界上最邪恶的USB外设，BadUSB最早是在2014年的黑帽大会上研究人员JakobLell和Karsten Nohl提出并展示的。不同于老式的U盘病毒，它利用了USB协议中的一个漏洞，通过模拟键盘、鼠标、网卡等从而让目标电脑执行恶意代码，达到控住主机或者窃取敏感信息等目的。</p>
+<h2 id="BadUSB攻击原理"><a href="#BadUSB攻击原理" class="headerlink" title="BadUSB攻击原理"></a>BadUSB攻击原理</h2><p>BadUSB的威胁在于：恶意代码存在于U盘的固件中，PC上的杀毒软件无法访问到U盘存放固件的区域，因此也就意味着杀毒软件和U盘格式化都无法应对BadUSB的攻击。Bad-Usb插入后，会模拟键盘鼠标对电脑进行操作，通过这些操作打开电脑的命令终端，并执行一条命令，这条命令将从指定网址下载其他代码并于后台静默运行。这些代码功能包括：窃取信息、反弹shell、发送邮件等，从而实现控制目标机或者窃取信息的目的。</p>
+<h3 id="BadUSB的种类"><a href="#BadUSB的种类" class="headerlink" title="BadUSB的种类"></a>BadUSB的种类</h3><p>目前市面上普遍的BadUSB有三种：</p>
+<p>1.<img src="/2018/04/26/BadUsb/微信截图_20180426210340.png" alt="image"></p>
+<p>hak5，简称“大黄鸭”，外国专业版的BadUsb，价格偏高，适合极客或者土豪朋友使用</p>
+<p>官方链接：<a href="https://hakshop.com/products/usb-rubber-ducky-deluxe" target="_blank" rel="noopener">https://hakshop.com/products/usb-rubber-ducky-deluxe</a></p>
+<p>2.<img src="/2018/04/26/BadUsb/微信截图_20180426210350.png" alt="image"></p>
+<p>中国极客创造的FireGoose，简称“烧鹅”，价格适中，性价比较高</p>
+<p>购买途径：万能的某宝</p>
+<p>3.<img src="/2018/04/26/BadUsb/微信截图_20180426210324.png" alt="image"></p>
+<p>今天的主角，Digispark，价格便宜，只需花几块钱，就能够拥有。今天我们就以Digispark搭建属于自己的BadUSB</p>
+<p>购买途径：万能的某宝</p>
+<h3 id="环境安装"><a href="#环境安装" class="headerlink" title="环境安装"></a>环境安装</h3><p>这是Digispark官方给出的标准搭建方式，可搭配本教程一起使用<a href="http://digistump.com/wiki/digispark/tutorials/connecting" target="_blank" rel="noopener">http://digistump.com/wiki/digispark/tutorials/connecting</a></p>
+<p>第一步，前往<a href="https://www.arduino.cc/en/Main/Software下载Arduino（注意自己的操作系统位数为32位还是64位）" target="_blank" rel="noopener">https://www.arduino.cc/en/Main/Software下载Arduino（注意自己的操作系统位数为32位还是64位）</a></p>
+<p>第二步，安装Arduino完成后，前往<a href="https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip下载Digispark驱动（注意安装程序选择自己电脑的位数）" target="_blank" rel="noopener">https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip下载Digispark驱动（注意安装程序选择自己电脑的位数）</a></p>
+<h3 id="搭建BadUSB"><a href="#搭建BadUSB" class="headerlink" title="搭建BadUSB"></a>搭建BadUSB</h3><p>第一步</p>
+<p>.<img src="/2018/04/26/BadUsb/微信截图_20180426212026.png" alt="image"></p>
+<p>进入Arduino软件界面，点击左上角 文件-&gt;首选择，打开首选择，在下面的附加开发板管理板管理器网站里添加网站：<a href="http://digistump.com/package_digistump_index.json" target="_blank" rel="noopener">http://digistump.com/package_digistump_index.json</a><br>如图：</p>
+<p>.<img src="/2018/04/26/BadUsb/微信截图_20180426212332.png" alt="image"></p>
+<p>第二步</p>
+<p>在Arduino界面里进入“工具”菜单，开发板-&gt;开发管理器，然后从类型下拉菜单中选择“贡献”， 选择“Digistump AVR Boards”包，然后单击“安装”按钮，如图:</p>
+<p>.<img src="/2018/04/26/BadUsb/微信截图_20180426212821.png" alt="image"></p>
+<p>将在“开发板管理器”窗口的底部栏上看到下载进度，完成后它会在列表中的该项旁边显示“已安装”。（特别慢）安装完成后，就可以在开发板中看到Digispark了。选择默认的Digispark (Default - 16.5mhz)。如图：</p>
+<p>.<img src="/2018/04/26/BadUsb/微信截图_20180426213101.png" alt="image"></p>
+<p>重点说三次：</p>
+<p>在调用上传之前，不需要插入Digispark！</p>
+<p>在调用上传之前，不需要插入Digispark！</p>
+<p>在调用上传之前，不需要插入Digispark！</p>
+<p>点击上传按钮。底部状态框现在会要求您插入Digispark - 此时您需要插入它 - 或者拔下并重新插入它。</p>
+<h3 id="关于Digispark脚本Payload"><a href="#关于Digispark脚本Payload" class="headerlink" title="关于Digispark脚本Payload"></a>关于Digispark脚本Payload</h3><p>这是“大黄鸭”的脚本：<a href="https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads" target="_blank" rel="noopener">https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads</a> 可直接下载大黄鸭的脚本，然后通过<a href="https://github.com/toxydose/Duckyspark" target="_blank" rel="noopener">https://github.com/toxydose/Duckyspark</a> python脚本对“大黄鸭”脚本进行转换，转换成Digispark的使用脚本</p>
+<p>当然大神可以自觉选择编译噢！</p>
+<h5 id="参考来着：安恒信息"><a href="#参考来着：安恒信息" class="headerlink" title="参考来着：安恒信息"></a>参考来着：安恒信息</h5><h6 id="欢迎大家关注我的Github博客：https-albertxi-github-io"><a href="#欢迎大家关注我的Github博客：https-albertxi-github-io" class="headerlink" title="欢迎大家关注我的Github博客：https://albertxi.github.io/"></a>欢迎大家关注我的Github博客：<a href="https://albertxi.github.io/" target="_blank" rel="noopener">https://albertxi.github.io/</a></h6><h6 id="有不懂或者不明白的地方，欢迎咨询本人QQ：1755658082（免费）"><a href="#有不懂或者不明白的地方，欢迎咨询本人QQ：1755658082（免费）" class="headerlink" title="有不懂或者不明白的地方，欢迎咨询本人QQ：1755658082（免费）"></a>有不懂或者不明白的地方，欢迎咨询本人QQ：1755658082（免费）</h6>
       
     </div>
     
@@ -392,15 +422,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/04/26/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/26/BadUsb/" rel="prev" title="BadUSB搭建">
-                BadUSB搭建 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -518,7 +548,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#BadUSB搭建"><span class="nav-number">1.</span> <span class="nav-text">BadUSB搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#BadUSB攻击原理"><span class="nav-number">2.</span> <span class="nav-text">BadUSB攻击原理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#BadUSB的种类"><span class="nav-number">2.1.</span> <span class="nav-text">BadUSB的种类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#环境安装"><span class="nav-number">2.2.</span> <span class="nav-text">环境安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搭建BadUSB"><span class="nav-number">2.3.</span> <span class="nav-text">搭建BadUSB</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关于Digispark脚本Payload"><span class="nav-number">2.4.</span> <span class="nav-text">关于Digispark脚本Payload</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#参考来着：安恒信息"><span class="nav-number">2.4.0.1.</span> <span class="nav-text">参考来着：安恒信息</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#欢迎大家关注我的Github博客：https-albertxi-github-io"><span class="nav-number">2.4.0.1.1.</span> <span class="nav-text">欢迎大家关注我的Github博客：https://albertxi.github.io/</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#有不懂或者不明白的地方，欢迎咨询本人QQ：1755658082（免费）"><span class="nav-number">2.4.0.1.2.</span> <span class="nav-text">有不懂或者不明白的地方，欢迎咨询本人QQ：1755658082（免费）</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
